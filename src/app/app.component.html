@@ -1,2 +1,47 @@
-<h1> NodeJs Assositions</h1>
-<h1> NodeJs Assositions</h1>
+<!-- Lazy loading
+       Make a module
+       Make two Components
+       Use module in lazy loading way
+       Make Routing
+       Make Routing Link
+ -->
+ <h1>Lazy loading  module in angular</h1>
+ <h3>Admin-Links</h3>
+ <ul>
+  <li>
+    <a routerLink="admin/login">Login</a>
+  </li>
+  <li>
+    <a routerLink="admin/list">List</a>
+  </li>
+ </ul>
+ <br>
+ <br>
+ <h3>User-Links</h3>
+ <ul>
+  <li>
+    <a routerLink="user/login">Login</a>
+  </li>
+  <li>
+    <a routerLink="user/list">List</a>
+  </li>
+ </ul>
+
+ <!-- Lazy loading component -->
+
+ <h1>Lazy loading components in angular</h1>
+ <button (click)="loadAdmin()">Load Admin List</button>
+
+ <button (click)="loadUser()">Load User List</button>
+
+
+
+
+
+
+
+
+
+
+
+ <router-outlet></router-outlet>
